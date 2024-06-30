@@ -22,3 +22,18 @@ My name is Pavel. I am a Frontend developer with engineer background and love fo
 - CSS
 - JavaScript (ES6+)
 
+### Code example
+
+```JavaScript
+const flip=(d, a) => {
+  if (d === 'R') {
+    return a.sort((a, b) => a - b);
+  }
+  return a.sort((a, b) => b - a);
+};
+```
+
+
+
+
+
