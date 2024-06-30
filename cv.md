@@ -33,6 +33,14 @@ const flip=(d, a) => {
 };
 ```
 
+### Education
+
+- Moscow State University of Instrument Engineering and Informatics, engineer
+
+### English level
+
+- A2 (pre-intermediate)
+
 
 
 
