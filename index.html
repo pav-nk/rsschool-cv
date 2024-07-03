@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/cv.svg">
     <link rel="stylesheet" href="style.css">
-    <title>CV</title>
+    <title>rsschool cv</title>
 </head>
 <body>
+    <div class="wrapper">
+        <header class="header">
+            <img src="" alt="avatar" class="avatar">
+            <div class="header__content">
+                <h1>Pavel Nikonorov</h1>
+                <p>Fronted - Developer</p>
+            </div>
+        </header>
+        <main class="main">
+            <section class="how-to-reach-me">
+                <h2>How to reach me:</h2>
+                <ul class="how-to-reach-me__contacts">
+                    <li>
+                        <a href="https://t.me/pav_nk" target="_blank"><b>Telegram:</b> @pav_nk</a>
+                    </li>
+                    <li>
+                        <a href="mailto:pav.nk.vh@gmail.com" target="_blank"><b>Email:</b> pav.nk.vh@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.codewars.com/users/pav_nk" target="_blank"><b>Codewars:</b> pav_nk</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about-me">
+                <h2>About me:</h2>
+                <p>My name is Pavel. I am a Frontend developer with engineer background and love for anything tech.</p>
+            </section>
+            <section class="skills">
+                <h2>Skills:</h2>
+                <ul>
+                    <li><b>Git</b></li>
+                    <li><b>HTML</b></li>
+                    <li><b>CSS</b></li>
+                    <li><b>JavaScript (ES6+)</b></li>
+                </ul>
+            </section>
+            <section class="code">
+                <h2>Code example:</h2>
+                <pre><code>
+                    const flip=(d, a) => {
+                        if (d === 'R') {
+                          return a.sort((a, b) => a - b);
+                        }
+                        return a.sort((a, b) => b - a);
+                    };
+                  </code></pre>
+            </section>
+            <section class="projects">
+                <h2>My projects:</h2>
+                <ul>
+                    <li><a href="https://pav-nk.github.io/Etch-a-Sketch/" target="_blank" rel="noopener noreferrer">Etch a Sketch</a></li>
+                    <li><a href="https://pav-nk.github.io/Rock-Paper-Scissors/" target="_blank" rel="noopener noreferrer">Rock Paper Scissors</a></li>
+                    <li><a href="https://pav-nk.github.io/Calculator/src/" target="_blank" rel="noopener noreferrer">Calculator</a></li>
+                </ul>
+            </section>
+            <section class="education">
+                <h2>Education:</h2>
+                <p>Moscow State University of Instrument Engineering and Informatics, engineer, 2013</p>
+            </section>
+            <section class="english">
+                <h2>English level:</h2>
+                <p>A2 (pre-intermediate)</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="github" href="https://github.com/pav-nk" target="_blank">
+                <img class="github-logo" src="./images/github.svg" alt="Github logo">
+            </a>
+            <span>Copyright © 2024</span>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+                <img class="rsschool-logo" src="./images/rs-logo.svg" alt="RSSchool logo">
+            </a>
+        </footer>
+    </div>
 </body>
 </html>
