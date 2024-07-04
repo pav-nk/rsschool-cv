@@ -12,6 +12,7 @@
 
 html {
     font-size: 10px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -42,15 +43,6 @@ ul {
     list-style-position: inside;
 }
 
-.wrapper {
-    margin: 0 auto;
-    max-width: 992px;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    gap: 20px;
-}
-
 h1, h2 {
     color: var(--title-color);
     margin: 0;
@@ -64,6 +56,15 @@ pre {
     margin: 0;
 }
 
+.wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 20px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -73,6 +74,19 @@ pre {
 .header__content {
     font-weight: 700;
     font-size: 2rem;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.nav__list a {
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 48px;
 }
 
 .avatar {
@@ -89,7 +103,8 @@ pre {
 }
 
 .sub-title {
-    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-size: 2rem;
     margin-bottom: 15px;
     display: flex;
     align-items: center;
@@ -101,7 +116,7 @@ pre {
     display: block;
     width: 32px;
     height: 32px;
-    background: url("./images/dev.svg") center / cover no-repeat;
+    background: url("./assets/svg/dev.svg") center / cover no-repeat;
 }
 
 .main {
@@ -109,7 +124,6 @@ pre {
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-top: -80px;
 }
 
 .footer {
