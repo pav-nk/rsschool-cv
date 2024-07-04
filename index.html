@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./assets/svg/cv.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>rsschool cv</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__content">
+                <h1 class="title">Pavel<br>Nikonorov</h1>
+                <p>Fronted - Developer</p>
+            </div>
+            <nav class="nav">
+                <ul class="nav__list">
+                  <li><a href="#how-to-reach-me">How to reach me</a></li>
+                  <li><a href="#about-me">About me</a></li>
+                  <li><a href="#skills">Skills</a></li>
+                  <li><a href="#code">Code</a></li>
+                  <li><a href="#projects">My projects</a></li>
+                  <li><a href="#education">Education</a></li>
+                  <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+            <img class="avatar" src="./assets/img/avatar.jpg" alt="avatar">
+        </header>
+        <main class="main">
+            <section class="how-to-reach-me" id="how-to-reach-me">
+                <h2 class="sub-title">How to reach me:</h2>
+                <ul class="how-to-reach-me__contacts">
+                    <li>
+                        <a href="https://t.me/pav_nk" target="_blank"><b>Telegram:</b> @pav_nk</a>
+                    </li>
+                    <li>
+                        <a href="mailto:pav.nk.vh@gmail.com" target="_blank"><b>Email:</b> pav.nk.vh@gmail.com</a>
+                    </li>
+                    <li>
+                        <a href="https://www.codewars.com/users/pav_nk" target="_blank"><b>Codewars:</b> pav_nk</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about-me" id="about-me">
+                <h2 class="sub-title">About me:</h2>
+                <p>My name is Pavel. I am a Frontend developer with engineer background and love for anything tech.</p>
+            </section>
+            <section class="skills" id="skills">
+                <h2 class="sub-title">Skills:</h2>
+                <ul class="skills__list">
+                    <li><b>Git</b></li>
+                    <li><b>HTML</b></li>
+                    <li><b>CSS</b></li>
+                    <li><b>JavaScript (ES6+)</b></li>
+                </ul>
+            </section>
+            <section class="code" id="code">
+                <h2 class="sub-title">Code example:</h2>
+                <pre>
+                    <code>
+                    const flip=(d, a) => {
+                        if (d === 'R') {
+                          return a.sort((a, b) => a - b);
+                        }
+                        return a.sort((a, b) => b - a);
+                    };
+                    </code>
+                </pre>
+            </section>
+            <section class="projects" id="projects">
+                <h2 class="sub-title">My projects:</h2>
+                <ul class="projects__list">
+                    <li><a href="https://pav-nk.github.io/Etch-a-Sketch/" target="_blank" rel="noopener noreferrer">Etch a Sketch</a></li>
+                    <li><a href="https://pav-nk.github.io/Rock-Paper-Scissors/" target="_blank" rel="noopener noreferrer">Rock Paper Scissors</a></li>
+                    <li><a href="https://pav-nk.github.io/Calculator/src/" target="_blank" rel="noopener noreferrer">Calculator</a></li>
+                </ul>
+            </section>
+            <section class="education" id="education">
+                <h2 class="sub-title">Education:</h2>
+                <p>Moscow State University of Instrument Engineering and Informatics: engineer, 2013</p>
+            </section>
+            <section class="english" id="english">
+                <h2 class="sub-title">English:</h2>
+                <p>A2 (pre-intermediate)</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <a class="github" href="https://github.com/pav-nk" target="_blank">
+                <img class="github-logo" src="./assets/svg/github.svg" alt="Github logo">
+            </a>
+            <span>Copyright © 2024</span>
+            <a href="https://rs.school/courses/javascript-ru" target="_blank" rel="noopener noreferrer">
+                <img class="rsschool-logo" src="./assets/svg/rs-logo.svg" alt="RSSchool logo">
+            </a>
+        </footer>
+    </div>
+</body>
+</html>
